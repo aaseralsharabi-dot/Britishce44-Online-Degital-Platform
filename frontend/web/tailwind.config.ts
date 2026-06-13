@@ -30,6 +30,28 @@ const config: Config = {
         pulseGold: { '0%, 100%': { opacity: '1' }, '50%': { opacity: '0.7' } },
         float: { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-5px)' } },
       },
+      // Responsive typography
+      fontSize: {
+        'sm': ['0.875rem', '1.25rem'],
+        'base': ['1rem', '1.5rem'],
+        'lg': ['1.125rem', '1.75rem'],
+        'xl': ['1.25rem', '1.75rem'],
+        '2xl': ['1.5rem', '2rem'],
+      },
+      // Enhanced spacing for touch targets (iOS/Android)
+      spacing: {
+        'touch': '44px', // Recommended touch target size
+        'touch-sm': '32px', // Smaller touch target
+      },
+      // Improved viewport for mobile
+      screens: {
+        'xs': '320px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
     },
   },
   plugins: [],
